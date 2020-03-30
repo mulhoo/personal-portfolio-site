@@ -118,6 +118,7 @@ h2 {
   width: 65%;
   margin-right: auto;
   margin-left: auto;
+  background-color: rgb(247, 136, 17);
 }
 
 .video-games {
@@ -155,7 +156,7 @@ h2 {
 .thing {
   margin: 15px;
   padding: 5px;
-  background-color:rgb(247, 136, 17);
+  background-color:orangered;
   border-radius: 25px;
-
+  text-align: center;
 }
