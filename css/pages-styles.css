@@ -40,6 +40,7 @@ h1 {
   text-align: center;
   color: whitesmoke;
   font-weight: bold;
+  background-color: rgba(255, 247, 0, 0.639);
 }
 
 h2 {
@@ -82,4 +83,79 @@ h2 {
 .contact {
   font-weight: lighter;
   color: rgb(215, 212, 212);
+}
+
+.bio-box {
+  display: grid;
+  grid-template: 1fr 3fr/ 1fr 3fr;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.bio {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+.bio-photo {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  margin-left: auto;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.fave-things-box {
+  margin-top: 10px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 2fr 2fr 2fr 2fr;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video-games {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.piano {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.painting {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.hiking {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.sloths{
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
+}
+
+.icon {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  padding: 3px 0;
+}
+
+.thing {
+  margin: 15px;
+  padding: 5px;
+  background-color:rgb(247, 136, 17);
+  border-radius: 25px;
+
 }
