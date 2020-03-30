@@ -13,7 +13,7 @@ html, body {
 h1 {
   color: whitesmoke;
   font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: lato;
   font-weight: normal;
   text-align: center;
   margin: 15px;
@@ -31,7 +31,7 @@ h1 {
   position: absolute;
   left: 65%;
   top: 24%;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -70,7 +70,7 @@ h1 {
   height: 90px;
   margin: 5px;
   display: inline-block;
-  background-color: rgba(255, 166, 0, 0.495);
+  background-color: rgba(255, 247, 0, 0.639);
   line-height: 90px;
   text-align: center;
   transition: 300ms;
@@ -80,29 +80,4 @@ h1 {
   background-color: rgb(247, 136, 17);
   color: white;
   width: 100%;
-}
-
-.contact {
-  background-color: white;
-  color: black;
-  text-align: center;
-  height: 70px;
-  width: 500px;
-  position: relative;
-  top: 25%;
-  left: 28%;
-  margin: 5px;
-}
-
-.contact-title {
-  font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bolder;
-  margin: 5px;
-  display: inline-block;
-}
-
-.contact-info {
-  font-size: 16px;
-  font-weight: normal;
 }
